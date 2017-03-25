@@ -1,0 +1,71 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style1.css">
+	<script type="text/javascript">
+	<!-->
+	var image1=new Image()
+	image1.src="images/webres_1.png"
+	var image2=new Image()
+	image2.src="images/webres_2.png"
+	var image3=new Image()
+	image3.src="images/webres_3.png"
+	var image4=new Image()
+	image4.src="images/webres_4.png"
+	var image5=new Image()
+	image5.src="images/webres_5.png"
+	//-->
+	</script>
+	<title>Home</title>
+</head>	
+	<body>
+	<header>
+		<img class="image" src="images/logo.png"/>
+		<ul class="main">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Packages</a></li>
+			<li><a href="#">Dining</a></li>
+			<li><a href="#">Book Now</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		</header>
+		<img class="center_image" src="images/webres_1.png" name="slide"/>
+		<script type="text/javascript">
+		<!-->
+		var step=1;
+		function slideit(){
+		document.images.slide.src=eval("image"+step+".src")
+		if(step<5)
+		step++
+		else
+		step=1
+		setTimeout("slideit()",2500)
+		}
+		slideit()
+		//-->
+		</script>
+		
+		<h2 class="highlight"><img src="images/highlight.png"/></h2>
+		<img class="location" src="images/resort1.png"/>
+		<img class="l_logo" src="images/L_logo.png"/>
+		<p class="p1"><b>Little palm island is situated in 
+		<br>Lesser Town, just steps away from
+		<br>the Charles Bridge and Prague Castle.</b>
+		</p>
+		<br>
+		<br>
+		<p class="p2">
+		<img class="dining_logo" src="images/dining_logo.png"/>
+		<b><br>Our restaurant ranks among Prague's 
+		<br>best fine dining establishments and 
+		<br>features a delightful menu prepared
+		<br>by Executive Chef David Šašek</b></p>
+		<img class="dining" src="images/dining.png"/>
+		
+		<footer>
+		<b><a href="#">About Us</a></b><br>
+		<b>Contact us at <a href="#">resortsandhotel@gmail.com</a></b>
+		</footer>
+</body>
+</html>
