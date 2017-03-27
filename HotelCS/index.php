@@ -1,4 +1,4 @@
-<!DOCTYE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" href="styles/home.css">
