@@ -1,0 +1,43 @@
+.header{
+    background-image: url("../images/background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#background{
+    visibility: hidden;
+}
+
+.image{
+    float: left;
+    height: inherit;
+    padding: 30px; 
+}
+
+ul.main{
+    padding: 45px;
+    background-color: black;
+    opacity: 0.4;
+}
+
+ul.main li{
+    padding: 40px;
+	display: inline;
+	font-family: sans-serif;
+	font-size:20px;
+}
+
+ul.main a{
+	text-decoration: none;
+	color: white;
+    transition: all 0.75s ease-in-out;
+}
+
+ul.main a:hover{
+    padding: 14px;
+    font-size: 30px;
+    background-color:#1dad9b;
+    color: darkslategrey;
+    border-radius: 12px;
+    
+}
